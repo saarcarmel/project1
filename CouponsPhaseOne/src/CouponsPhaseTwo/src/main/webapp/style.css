@@ -1,0 +1,49 @@
+@charset "ISO-8859-1";
+
+a {
+	background-color: blue;
+	color: white;
+	text-align: center;
+}
+
+body {
+	background-color: white;
+	color: blue;
+	text-align: center;
+}
+
+}
+div {
+	background-color: blue;
+	color: white;
+	text-align: left;
+}
+
+h1 {
+	background-color: blue;
+	color: white;
+	text-align: center;
+}
+
+h2 {
+	background-color: blue;
+	color: white;
+	text-align: left;
+}
+
+h3 {
+	background-color: blue;
+	color: white;
+	text-align: left;
+}
+
+img {
+	width: 200px;
+	height: 200px;
+}
+
+p {
+	background-color: blue;
+	color: white;
+	text-align: left;
+}

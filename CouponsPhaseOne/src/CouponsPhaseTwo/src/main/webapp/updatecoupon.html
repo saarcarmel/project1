@@ -1,0 +1,16 @@
+<img src="coupon.jpg" style="margin-left: 2%; margin-top: 1%">
+<br>
+<br>
+<p style="margin-left: 2%">
+	ID : <input type="text" data-ng-model="c.newCoupon.id"
+		style="margin-left: 1.5%" placeholder="Coupon ID">
+</p>
+<p style="margin-left: 2%">
+	NAME: <input type="text" data-ng-model="c.newCoupon.name"
+		placeholder="Coupon Name"> <input type="button" value="Update"
+		style="margin-left: 2%" data-ng-click="c.updateCoupon()" /> <br>
+	<br>
+<p data-ng-show="c.success" style="color: green; margin-left: 2%">Coupon
+	Successfully updated!</p>
+<p data-ng-show="c.failure" style="color: red; margin-left: 2%">Coupon
+	was NOT updated!</p>

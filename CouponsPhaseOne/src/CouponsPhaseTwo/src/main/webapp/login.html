@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<hr>
+	<form action="http://localhost:8080/CouponPhaseTwo/LoginServlet"
+		method="POST">
+		<p>
+			USER-NAME : <input type="text" name="username">
+		</p>
+		<p>
+			PASSWORD : <input type="password" name="password">
+		</p>
+		<input type="radio" name="userType" value="customer" checked>
+		Customer<br> <input type="radio" name="userType" value="company">
+		Company <br> <input type="radio" name="userType"
+			value="admininstrator"> Administrator<br> <br>
+		<br>
+		<button type="submit">LOGIN</button>
+	</form>
+</body>
+</html>

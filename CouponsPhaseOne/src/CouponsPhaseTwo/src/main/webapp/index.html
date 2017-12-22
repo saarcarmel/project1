@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html data-ng-app="myApp">
+<head>
+<script src="angular.js"></script>
+<script src="angular-ui-router.js"></script>
+<script src="bootstrap.js"></script>
+<script src="mock.srvc.js"></script>
+<script src="route.config.js"></script>
+<script src="createcompany.ctrl.js"></script>
+<script src="createcoupon.ctrl.js"></script>
+<script src="createcustomer.ctrl.js"></script>
+<script src="deletecompany.ctrl.js"></script>
+<script src="deletecoupon.ctrl.js"></script>
+<script src="deletecustomer.ctrl.js"></script>
+<script src="getcompanies.ctrl.js"></script>
+<script src="getcoupons.ctrl.js"></script>
+<script src="getcustomers.ctrl.js"></script>
+<script src="getcompany.ctrl.js"></script>
+<script src="getcoupon.ctrl.js"></script>
+<script src="getcustomer.ctrl.js"></script>
+<script src="updatecompany.ctrl.js"></script>
+<script src="updatecoupon.ctrl.js"></script>
+<script src="updatecustomer.ctrl.js"></script>
+<title>Admin Page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<!-- Sidebar -->
+	<div class="w3-sidebar w3-light-blue w3-bar-block" style="width: 15%">
+		<h3 class="w3-bar-item">Menu</h3>
+		<a href="#/getcompanies" class="w3-bar-item w3-button">Get
+			Companies</a> <a href="#/getcoupons" class="w3-bar-item w3-button">Get
+			Coupons</a> <a href="#/getcustomers" class="w3-bar-item w3-button">Get
+			Customers</a>
+		<hr />
+		<a href="#/getcompany" class="w3-bar-item w3-button">Get Company</a> <a
+			href="#/getcoupon" class="w3-bar-item w3-button">Get Coupon</a> <a
+			href="#/getcustomer" class="w3-bar-item w3-button">Get Customer</a>
+		<hr />
+		<a href="#/createcompany" class="w3-bar-item w3-button">Create
+			Company</a> <a href="#/createcoupon" class="w3-bar-item w3-button">Create
+			Coupon</a> <a href="#/createcustomer" class="w3-bar-item w3-button">Create
+			Customer</a>
+		<hr />
+		<a href="#/deletecompany" class="w3-bar-item w3-button">Delete
+			Company</a><a href="#/deletecoupon" class="w3-bar-item w3-button">Delete
+			Coupon</a><a href="#/deletecustomer" class="w3-bar-item w3-button">Delete
+			Customer</a>
+		<hr />
+		<a href="#/updatecompany" class="w3-bar-item w3-button">Update
+			Company</a> <a href="#/updatecoupon" class="w3-bar-item w3-button">Update
+			Coupon</a> <a href="#/updatecustomer" class="w3-bar-item w3-button">Update
+			Customer</a>
+		<hr />
+		<a href="resources.html" class="w3-bar-item w3-button">Resources</a>
+		<hr />
+		<a href="login.html" class="w3-bar-item w3-button">Log In</a>
+		<hr />
+		<a href="logout.html" class="w3-bar-item w3-button">Log Out</a>
+	</div>
+	<!-- Page Content -->
+	<div style="margin-left: 15%">
+		<div class="w3-container w3-white">
+			<h1>Welcome Admin</h1>
+		</div>
+		<div data-ui-view></div>
+	</div>
+</body>
+</html>
